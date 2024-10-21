@@ -11,4 +11,5 @@ function licz(){
         wynik = ilosc * 3.5
     }
     out.innerHTML = `kosz paliwa: ${wynik} zł`
+
 }
