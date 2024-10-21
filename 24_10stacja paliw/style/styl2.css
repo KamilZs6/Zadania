@@ -1,0 +1,62 @@
+*{
+    font-family: 'Cambria';
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+header, footer{
+    background-color: rgb(120, 0, 46);
+    color: white;
+    font-size: 150%;
+    padding: 5px;
+}
+.skalowanie{
+    height: 80px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(173, 20, 87);
+}
+menu{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 60%;
+}
+.odnosnik{
+    color: YellowGreen;
+    margin: 0 50px;
+    text-decoration: none;
+}
+.prawy{
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+    height: 322px;
+}
+.samochod{
+    margin: 40px;
+    padding: 10px;
+}
+.samochod:hover{
+    border: dotted 1px YellowGreen;
+}
+.lewy{
+    background-color: snow;
+    color: OliveDrab;
+    width: 60%;
+    height: 322px;
+}
+form, form>p{
+    text-align:left;
+}
+table, td{
+    border: solid 1px;
+}
+table{
+    width: 90%;
+}
